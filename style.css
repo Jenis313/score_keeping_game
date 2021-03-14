@@ -1,0 +1,58 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.container{
+	width: 300px;
+	margin: auto;
+	margin-top: 40px;
+	box-shadow: 0 0 6px #eee;
+}
+img{
+	width: 100%;
+}
+.center p{
+	padding:  0 10px 10px 10px;
+}
+.center-down{
+	padding:  0 10px 10px 10px;
+}
+.playingTo{
+	padding:  0 10px 10px 10px;
+}
+#gameOverScore{
+	width: 45px;
+	border-radius: 25px;
+	outline: none;
+	border: 1px solid #222;
+	padding: 3px 5px;
+	font-size: 12px
+}
+.buttons{
+	display: flex
+}
+.btn{
+	display: block;
+	flex: 1;
+	padding: 7px 0;
+	outline: none;
+	border: none;
+	color: #fff;
+}
+#playerOneBtn{
+	background-color: #C5D0DB;
+}
+#playerTwoBtn{
+	background-color: #8F7F64;
+}
+#resetBtn{
+	background-color: red;
+}
+.makeRed{
+	color: red;
+}
+.makeGreen{
+	color: green;
+}

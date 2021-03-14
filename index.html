@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SCORE KP GAME</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<div class="container">
+			<img src="png.png" alt="">
+			<div class="center">
+				<p>Score KeePing Game</p>
+				<div class="center-down">
+					<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+					<small>Use the buttons bellow to keep score.</small>
+				</div>
+				<form action="#">
+						<div class="playingTo">
+							<label for="gameOverScore">Playing To</label>
+							<input type="number" name="gameOverScore" id="gameOverScore">
+						</div>
+						<div class="buttons">
+							<button class="btn addder" id="playerOneBtn">+PlayerOne</button>
+							<button class="btn adder" id="playerTwoBtn">+Player2</button>
+							<button class="btn" id="resetBtn">Reset</button>
+						</div>
+					</form>
+			</div>
+		</div>
+	</main>
+	<script src="app.js"></script>
+</body>
+</html>
